@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c8bcbc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.seguimiento-tarea {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.entrada-texto {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#entrada-tarea {
+    flex-grow: 1;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#boton-add-tarea {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #050505;
+    color: #fff;
+    border: none;
+    border-radius: 20%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton-add-tarea:hover {
+    background-color: #5d5d5d;
+}
+
+#lista-tarea {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tarea-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tarea-item.completada {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.boton-eliminar {
+    background-color: #000000;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .boton-eliminar:hover {
+    background-color: red;
+}
+  
