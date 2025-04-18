@@ -1,3 +1,4 @@
+// Realizado por Guillermo Hernández
 const entradaTarea = document.getElementById("entrada-tarea");
 const botonAgregar = document.getElementById("boton-add-tarea");
 const ListaTarea = document.getElementById("lista-tarea");
